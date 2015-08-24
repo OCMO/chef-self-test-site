@@ -85,13 +85,13 @@
     "filesystem": {
       "/dev/xvda1": {
         "kb_size": "8123812",
-        "kb_used": "2268448",
-        "kb_available": "5755116",
+        "kb_used": "2268464",
+        "kb_available": "5755100",
         "percent_used": "29%",
         "mount": "/",
         "total_inodes": "524288",
-        "inodes_used": "90875",
-        "inodes_available": "433413",
+        "inodes_used": "90869",
+        "inodes_available": "433419",
         "inodes_percent_used": "18%",
         "fs_type": "ext4",
         "mount_options": [
@@ -328,23 +328,23 @@
         "free": "0kB"
       },
       "total": "1020528kB",
-      "free": "124488kB",
-      "buffers": "152740kB",
-      "cached": "414236kB",
-      "active": "515656kB",
-      "inactive": "282848kB",
-      "dirty": "44kB",
+      "free": "121336kB",
+      "buffers": "153360kB",
+      "cached": "414364kB",
+      "active": "518488kB",
+      "inactive": "282288kB",
+      "dirty": "68kB",
       "writeback": "0kB",
-      "anon_pages": "231540kB",
-      "mapped": "19568kB",
-      "slab": "80100kB",
-      "slab_reclaimable": "70908kB",
-      "slab_unreclaim": "9192kB",
-      "page_tables": "6124kB",
+      "anon_pages": "233100kB",
+      "mapped": "19572kB",
+      "slab": "80384kB",
+      "slab_reclaimable": "71068kB",
+      "slab_unreclaim": "9316kB",
+      "page_tables": "6612kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "510264kB",
-      "committed_as": "538348kB",
+      "committed_as": "544772kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "2060kB",
       "vmalloc_chunk": "34359736187kB"
@@ -495,15 +495,15 @@
         "interfaces": {
           "lo": {
             "rx": {
-              "bytes": "1163969",
-              "packets": "1258",
+              "bytes": "1252018",
+              "packets": "1335",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
             },
             "tx": {
-              "bytes": "1163969",
-              "packets": "1258",
+              "bytes": "1252018",
+              "packets": "1335",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
@@ -513,16 +513,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "61743830",
-              "packets": "166317",
+              "bytes": "61834222",
+              "packets": "166927",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "506153196",
-              "packets": "451192",
+              "bytes": "506281314",
+              "packets": "451917",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -641,16 +641,16 @@
         "chef_root": "/opt/chef/embedded/apps/chef/lib"
       }
     },
-    "ohai_time": 1440411056.7510104,
+    "ohai_time": 1440414278.2164226,
     "root_group": "root",
     "hostname": "ip-172-31-23-244",
     "machinename": "ip-172-31-23-244",
     "fqdn": "ip-172-31-23-244.ap-northeast-1.compute.internal",
     "domain": "ap-northeast-1.compute.internal",
-    "uptime_seconds": 442850,
-    "uptime": "5 days 03 hours 00 minutes 50 seconds",
-    "idletime_seconds": 441484,
-    "idletime": "5 days 02 hours 38 minutes 04 seconds",
+    "uptime_seconds": 446072,
+    "uptime": "5 days 03 hours 54 minutes 32 seconds",
+    "idletime_seconds": 444694,
+    "idletime": "5 days 03 hours 31 minutes 34 seconds",
     "cloud": {
       "public_ips": [
         "52.69.102.126"
@@ -887,13 +887,6 @@
           "dir": "/home/monster_strike",
           "gid": 702,
           "uid": 702,
-          "shell": "/bin/bash",
-          "gecos": ""
-        },
-        "miwa": {
-          "dir": "/home/miwa",
-          "gid": 703,
-          "uid": 703,
           "shell": "/bin/bash",
           "gecos": ""
         }
@@ -1176,12 +1169,6 @@
         },
         "monster_strike": {
           "gid": 702,
-          "members": [
-
-          ]
-        },
-        "miwa": {
-          "gid": 703,
           "members": [
 
           ]
