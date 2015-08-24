@@ -2,5 +2,5 @@
 {
   "id": "miwa",
   "shell": "/bin/bash",
-  "password": "morobororo"
+  "password": "$1$pkGVnf/n$TSjSN3NDgAeyf6d.2DXMi0"
 }
